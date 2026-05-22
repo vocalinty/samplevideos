@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Editing Services</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Space Grotesk', monospace, sans-serif;
+}
+
+body{
+  background:#020617;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* TOP BRAND HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  position:sticky;
+  top:0;
+  background:rgba(0,0,0,0.35);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-weight:700;
+  font-size:18px;
+  letter-spacing:1px;
+}
+
+.brand img{
+  width:38px;
+  height:38px;
+  border-radius:10px;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  background:
+  radial-gradient(circle at top left, rgba(135,206,250,0.25), transparent 30%),
+  radial-gradient(circle at bottom right, rgba(0,70,135,0.35), transparent 35%),
+  linear-gradient(135deg,#020617,#000814,#001d3d);
+  padding:80px 0;
+}
+
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+}
+
+.tag{
+  color:#87CEFA;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  font-size:14px;
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:72px;
+  line-height:1.05;
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.gradient-text{
+  background:linear-gradient(to right,#87CEFA,#004687);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+  font-size:18px;
+  margin-bottom:60px;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+/* VIDEO GRID */
+.video-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+
+.video-box{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+  padding:15px;
+  border-radius:25px;
+}
+
+iframe{
+  width:100%;
+  height:220px;
+  border:none;
+  border-radius:20px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  border-top:1px solid rgba(255,255,255,0.08);
+  color:#94a3b8;
+  font-size:14px;
+  margin-top:80px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TOP BRANDING -->
+<header>
+
+  <div class="brand">
+    <img src="Logo.png" alt="logo">
+    Vocalinty
+  </div>
+
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="container">
+
+    <div class="tag">Basic Video Editing</div>
+
+    <h1>
+      Here are the <span class="gradient-text">Sample Videos</span>
+    </h1>
+
+    <p>
+      Here is the type of editing you can expect me to recreate.
+    </p>
+
+    <!-- VIDEOS -->
+    <div class="video-grid">
+
+      
+
+      <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/-oQepWdb3BA" allowfullscreen></iframe>
+      </div>
+
+      <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/BsblgcBB17A" allowfullscreen></iframe>
+      </div>
+      <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/_m9EstfW7KI" allowfullscreen></iframe>
+      </div>
+      <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/m0qxyyppr_g" allowfullscreen></iframe>
+      </div>
+      <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/IO5WnEZGTSo" allowfullscreen></iframe>
+      </div>
+    <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/qUuNsFIx16g" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Vocalinty. All Rights Reserved.
+</footer>
+
+</body>
+</html>
